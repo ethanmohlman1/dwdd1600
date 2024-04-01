@@ -1,0 +1,210 @@
+body {
+    font-family: "Noto", sans-serif;
+    font-size: 17px;
+    font-weight: 300; 
+    color: #363432;
+    background-color: #fff;
+    margin: 0;
+}
+
+
+
+/*Header*/
+header {
+    background-color: #363432;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    color: #f0941f;
+}
+header p {
+    margin: 0;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+/*Nav*/
+nav {
+    background-color: #196774;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    padding: .83rem;
+    
+}
+nav li.active a {
+    background-color: #363432;
+    color: #fff;    
+}
+nav a:hover {
+    color: #fff;
+    
+}
+
+/*Main*/
+main {
+    padding: 1rem 2%;
+    
+}
+main h1 {
+    color: #cf701d;
+}
+
+main h2 {
+    color: #196774;
+    margin-bottom: .2rem
+}
+main p {
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3%;
+    background-color: #c1d8db;
+    border: 2px solid;
+    border-color: #363432;
+    border-radius: 1px;
+}
+
+main dl dt {
+    color: #cf701d;
+    font-weight: 700;
+}
+main dl dd {
+    color: #363432;
+    padding: 0.2rem;
+    
+}
+main ul {
+    list-style-type: "\1faa8";
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    padding: .1rem;
+}
+
+div.upcominggall {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.upcominggall figure {
+    margin: .5rem 2% 0 0;
+    padding: 1rem;
+}
+div.upcominggall figcaption {
+    text-align: center;
+}
+
+div.conan figure {
+
+}
+div.conan figure img {
+    float: right;
+    vertical-align: bottom;
+    width: 20%;
+    height: auto;
+}
+    
+div.conan figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    clear: both;
+    max-width: 20%;
+    float: right;
+    padding: 0.3rem; 
+}
+
+main address {
+    font-style: normal;
+    background-color: #c1d8db;
+    padding: .5rem;
+    width: 12.5rem;
+    color: #363432;
+    border: 2px solid;
+    border-color: #363432;
+    border-radius: 1px;
+}
+
+main a {
+    color: #7d4600;  
+}
+main a:hover {
+    color: #cf701d;  
+}
+
+main ol li {
+    padding: .2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #363432;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear: both;
+}
+footer a {
+   color: #fff; 
+}
+
+.form fieldset {
+    border: 1px solid #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    
+}
+
+.form legend {
+    color: #196774;
+    font-size: 0.85rem;
+}
+
+.form label {
+    margin: .8rem;
+}
+
+.form label, .form select, form [type=text], .form [type=tel], .form [type=email], .form textarea {
+    display: block;
+    margin: 0rem 0rem 1rem;
+}
+
+.form textarea {
+    font-family: "Noto", sans-serif;
+    height: 7rem;
+    width: 15rem; 
+    background-color: #c1d8db
+    
+}
+
+.form :required, .form select, .form [type=tel], .form [type=email] {
+    background-color: #c1d8db;
+    color: #363432;
+}
+
+.form em {
+    font-size: 0.8rem;
+    clear: both;
+}
+.form [type=submit] {
+    background-color: #196774;
+    border: 1.4px solid #196774;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}

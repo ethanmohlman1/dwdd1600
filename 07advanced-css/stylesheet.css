@@ -244,13 +244,14 @@ nav a:hover {
     
 main {
         padding: 10px;
-} /* end of media query*/
+}
+}
+ /* end of media query*/
 
 /* small screens */
 @media only screen and (max-width: 600px) {
     nav {
-        background-color: #196774;
-        
+        background-color: #196774;    
     }
     nav ul {
         margin: 0;
